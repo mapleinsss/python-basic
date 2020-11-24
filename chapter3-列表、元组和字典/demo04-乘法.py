@@ -1,4 +1,4 @@
 # 乘法为，把元素重复 N 次
 
-a_tuple = (1, 2)
-print(a_tuple * 3)
+a_list = (1, 2)
+print(a_list * 3) # (1, 2, 1, 2, 1, 2)

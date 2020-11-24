@@ -4,10 +4,13 @@
 a_list = list(range(1, 10))
 ## 修改第三个元素
 a_list[3] = '被修改了呢'
-print(a_list)
+print(a_list) # [1, 2, 3, '被修改了呢', 5, 6, 7, 8, 9]
 ## 修改最后要给元素
 a_list[-1] = '最后的元素也被修改了呢'
-print(a_list)
+print(a_list) # [1, 2, 3, '被修改了呢', 5, 6, 7, 8, '最后的元素也被修改了呢']
+
+# a_list[20] = 'a' # IndexError: list assignment index out of range
+
 
 b_list = list(range(1, 10))
 ## 修改一段值为 hahaha

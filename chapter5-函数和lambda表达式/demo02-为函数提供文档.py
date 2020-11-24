@@ -10,6 +10,7 @@ def get_max(x, y):
     '''
     return x if x > y else y
 
+
 ## 使用 help 查看帮助
 help(get_max)
 ## 调用函数访问说明文档

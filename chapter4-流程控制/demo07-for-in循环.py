@@ -4,6 +4,9 @@ for 变量 in 字符串|范围|集合等：
     stmts
 '''
 
+for char in "hello":
+    print(char) # 换行打印 hello 每个字符
+
 ## 循环范围
 s_max = input('请输入您想计算的阶乘：')
 mx = int(s_max)

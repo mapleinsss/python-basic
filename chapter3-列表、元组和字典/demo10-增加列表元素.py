@@ -15,8 +15,8 @@ print(b_list)  # [1, 2, 3, (4, 5, 6)]
 
 ## 追加列表，当成一项添加进列表
 c_list = [1, 2, 3]
-c_list_2 = (4, 5, 6)
-c_list.append(c_list_2)
+c_list_2 = [4, 5, 6]
+c_list.append(c_list_2) # [1, 2, 3, [4, 5, 6]]
 print(c_list)
 
 ## 将序列的单个元素添加入列表
@@ -36,4 +36,4 @@ print(e_list)  # [1, 2, 3, 'gan', 4, 5]
 ## 插入元组，注意元组会被拆分成元素
 f_list = list(range(1, 6))
 f_list.insert(3, tuple('org'))
-print(f_list) # [1, 2, 3, ('o', 'r', 'g'), 4, 5]
+print(f_list)  # [1, 2, 3, ('o', 'r', 'g'), 4, 5]

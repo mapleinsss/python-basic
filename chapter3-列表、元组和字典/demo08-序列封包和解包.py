@@ -18,6 +18,8 @@ print(x)  # 10
 
 # 使用 *
 first, second, *rest = range(10)
+print(first) # 0
+print(second) # 1
 print(rest) # [2, 3, 4, 5, 6, 7, 8, 9]
 
 

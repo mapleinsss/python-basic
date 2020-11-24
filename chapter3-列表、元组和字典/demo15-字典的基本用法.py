@@ -3,6 +3,7 @@
 scores = {'语文': 100, '数学': 80, '英语': 0}
 ## 通过 key 访问 value
 print(scores['语文'])
+# print(scores['化学']) # KeyError: '化学'
 
 ## 新增
 scores['化学'] = 99
